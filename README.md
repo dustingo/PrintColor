@@ -6,7 +6,7 @@ pc = printcolor.PrintColor()
 pc.color(string,show="flash",front="green",back="yellow")
 ```
 - color
-``text
+```text
 显示样式:
     hlt :  高亮
     underline : 下划线
