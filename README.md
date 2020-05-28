@@ -7,7 +7,7 @@ import printcolor
 pc = printcolor.PrintColor()
 pc.color(string,show="flash",front="green",back="yellow")
 #pytho2.x
-import printcolor
+import printcolor2
 pc = printcolor.PrintColor()
 pc.color("lash","green","yellow",string)
 ```
