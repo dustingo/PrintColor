@@ -9,7 +9,7 @@ pc.color(string,show="flash",front="green",back="yellow")
 #pytho2.x
 import printcolor2
 pc = printcolor.PrintColor()
-pc.color("lash","green","yellow",string)
+pc.color("flash","green","yellow",string)
 ```
 - color
 ```text
