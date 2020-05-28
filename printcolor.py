@@ -2,21 +2,6 @@
 import sys
 class PrintColor:
     def __init__(self):
-        '''
-        显示方式:
-            hlt :  高亮
-            underline : 下划线
-            flash : 闪烁
-        字体/背景颜色：
-            black : 黑色
-            red:    红色
-            green:  绿色
-            yellow: 黄色
-            blue:   蓝色
-            carmine:胭脂红
-            cyan:   青色
-            white:  白色
-        '''
         self.__show_type = {"default":0, "hlt":1, "underline":4, "flash": 5}
         self.__front_type = {"black":30, "red": 31, "green":32, "yellow":33, "blue":34, "carmine":35, "cyan":36, "white":37}
         self.__back_type = {"black":40, "red": 41, "green":42, "yellow":43, "blue":44, "carmine":45, "cyan":46, "white":47}
